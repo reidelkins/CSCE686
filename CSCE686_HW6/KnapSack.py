@@ -67,12 +67,12 @@ def updatePotentialNodes():
 
 #driver code
 stocks = {'AAPL': (25, 5), 'MSFT': (40, 7), 'SHOP': (20, 5), 'DAL': (34, 9), 'HTZ': (7, 3)}
-stocks = ['AAPL', 'MSFT', 'SHOP', 'DAL', 'UAL', 'ETSY']
-values = [10, 10, 12, 18]
-prices = [2, 4, 6, 9]
+stocks = ['AAPL', 'MSFT', 'SHOP', 'DAL', 'UAL', 'ETSY', 'NKLA', 'TSLA', 'RCL', 'CCL', 'M', 'C', 'T', 'VZ', 'TIF', 'IRN', 'BLK', 'TTD', 'CRM', 'ZM']
+values = [10, 10, 12, 18, 14, 7, 5, 20, 15, 4, 19, 2, 5, 3, 12, 17, 13, 16, 11, 9]
+prices = [2, 4, 6, 9, 3, 7, 4, 9, 2, 4, 3, 7, 5, 4, 6, 8, 2, 3, 4, 5]
 size = len(values)
 stockTruths = [1] * size
-money = 15
+money = 50
 depth = 1
 trueUpperBound = 0
 
